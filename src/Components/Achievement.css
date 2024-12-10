@@ -1,0 +1,17 @@
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-wrapper {
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  

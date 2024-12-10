@@ -1,0 +1,57 @@
+.team-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .image-container {
+    width: 45%;
+  }
+  
+  .team-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    animation: fadeInOut 4s infinite;
+  }
+  
+  .paragraph-container {
+    width: 50%;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .team-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .image-container, .paragraph-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  
+    .team-image {
+        animation: fadeInOutMobile 4s infinite;
+    }
+  
+    @keyframes fadeInOutMobile {
+        0%, 100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+  }
+  

@@ -1,0 +1,56 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand img {
+  height: 4rem;
+  margin-top: 0.5rem;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* Responsive Navbar Styles */
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: block; /* Show the toggle button */
+  }
+
+  .navbar-collapse {
+    display: none; /* Hide the Navbar links */
+  }
+
+  .navbar-collapse.show {
+    display: block; /* Show the Navbar links when toggled */
+  }
+
+  .nav-item {
+    text-align: center; /* Center align the Navbar items */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+}
+
+/* Small devices (portrait tablets and small desktops) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* You can add styles for this screen size if needed */
+}
+
+/* Medium devices (landscape tablets and medium desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* You can add styles for this screen size if needed */
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 992px) {
+  /* You can add styles for this screen size if needed */
+}
+
+  

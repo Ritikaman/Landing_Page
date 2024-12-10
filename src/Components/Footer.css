@@ -1,0 +1,165 @@
+/* .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: "Sedan", sans-serif;
+}
+
+/* Columns */
+/* .col-1, .col-2, .col-3 {
+    flex: 1;
+    padding: 0 15px;
+    margin-right: 3rem;
+} */
+
+/* Links and Text */
+/* .col-1 a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+} */
+
+/* .col-1 a:hover {
+    color: yellow;
+}
+
+/* Newsletter Form */
+/*  */
+
+/* .col-2 input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}  */
+
+/* .col-2 button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 30, 30);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
+
+/* .col-2 button:hover {
+    background-color: #ff006a;
+}
+
+/* Contact Info */
+/* .col-3 p {
+    margin: 0;
+    line-height: 1.5;
+} */ 
+
+/* Responsive Styles */
+/* @media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .col-1 a {
+        margin: 5px 0;
+    }
+
+    .col-2 button {
+        border-radius: 4px;
+    }
+}  */
+/* Base styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: "Sedan", sans-serif;
+}
+
+/* Columns */
+.col-1, .col-2, .col-3 {
+    flex: 1;
+    padding: 0 15px;
+}
+
+/* Links and Text */
+.col-1 a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.col-1 a:hover {
+    color: yellow;
+}
+
+/* Newsletter Form */
+.col-2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2 input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* .col-2 button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 30, 30);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
+
+.col-2 button:hover {
+    background-color: #ff006a;
+}
+
+/* Contact Info */
+.col-3 p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .col-1 a {
+        margin: 5px 0;
+    }
+
+    .col-2 button {
+        border-radius: 4px; /* Updated from 20px to 4px for consistency */
+    }
+}
